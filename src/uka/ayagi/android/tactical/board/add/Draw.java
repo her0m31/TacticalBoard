@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-
+//test
 public class Draw extends View implements OnTouchListener {
 	private Paint paint;
 	private ArrayList<Path> pathList = new ArrayList<Path>();
