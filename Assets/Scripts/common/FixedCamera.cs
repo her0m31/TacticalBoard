@@ -37,7 +37,6 @@ public class FixedCamera : MonoBehaviour {
 	}
 
 	void Awake() {
-		aspect = new Vector2(9.0f, 16.0f);
 		aspectRate = (float)aspect.x / (float)aspect.y;
 	}
 }
